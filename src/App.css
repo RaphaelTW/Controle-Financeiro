@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Estilos gerais para o aplicativo */
 body {
   font-family: Arial, sans-serif;
@@ -58,7 +57,7 @@ body {
 .login-button.dark-mode {
   background-color: #555;
 }
-=======
+
 .App {
   text-align: center;
 }
@@ -93,8 +92,8 @@ body {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
->>>>>>> a89d2441112a8865f51d1bf01aacaf3577597bd8
