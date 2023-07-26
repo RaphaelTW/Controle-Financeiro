@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Controle Financeiro - Aplicativo Web para Gerenciamento de Finanças
 
 ## Descrição:
