@@ -1,0 +1,64 @@
+/* Estilos para o componente Login */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para o dark mode */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+    /* Ajuste a cor do texto no dark mode para branco */
+}
+
+.login-container.dark-mode {
+    border: 1px solid #ddd;
+    background-color: #444;
+}
+
+.login-input.dark-mode {
+    border: 1px solid #ddd;
+    background-color: #555;
+    color: #fff;
+}
+
+.login-button.dark-mode {
+    background-color: #555;
+}
